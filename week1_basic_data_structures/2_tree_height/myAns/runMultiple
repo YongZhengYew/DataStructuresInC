@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in {0..120000..1000}
+do
+    bash -c "./a.out $i"
+done
